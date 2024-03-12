@@ -52,4 +52,6 @@ Git remote -v =to check link
 
 Git push GitHub master =it pushes master code to GitHub account server
 
+Git clone link =to clone a repository and take it to our system 
+
 
