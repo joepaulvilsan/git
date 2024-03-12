@@ -1,7 +1,55 @@
-Hai
-This is git series
+Git
+
+First cd to project folder then start git commands
+
+Git init
+
+Git add .
+
+Git add index.html
+
+Git commit -m “msg”
+
+Git checkout master 
+To move head pointer 
+
+Git branch feature 
+so when creating a project and a basic version is released now there are two teams working on ui and backend separately the cannot work together so they create two branches ui and backend so the can work separately on basic version
+
+Git log —all
+
+Fast forward merge
+We have made a branch take c now we have merge c to master for that instead of merging it is better to make c as master this is fast forward merge
+
+Steps
+Git checkout master
+Git merge c
+
+Here we are taking c to merge
 
 
-Not reached
-Reched 2nd part
+Git diff
+We can compare different commits example
+We have added a new line and commited it in but later we forget it and we have to find what we have changed for that we can we use git diff we can use git diff with commit id and understand what changes we have made
+
+Git stash 
+After one commit we have added something but we have not committed it but later we think that added thing is unnecessary so we can use git stash it will delete uncommitted unnecessary thing
+
+ git log --all --decorate --graph
+To see log graph
+
+Recursive merging
+*refer
+
+
+To host into server
+
+Git remote add GitHub link
+
+Git remote -to check hub
+
+Git remote -v =to check link
+
+Git push GitHub master =it pushes master code to GitHub account server
+
 
